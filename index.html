@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started Form</title>
+    <link rel="stylesheet" href="getstarted.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Get Started</h1>
+        <form id="getStartedForm" action="submit.php" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="leaseDate">Date of Lease</label>
+                <input type="date" id="leaseDate" name="leaseDate" required>
+            </div>
+            <div class="form-group">
+                <label for="leaseDuration">Duration of Lease (months)</label>
+                <input type="number" id="leaseDuration" name="leaseDuration" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="passport">Passport Number</label>
+                <input type="text" id="passport" name="passport" required>
+            </div>
+            <div class="form-group">
+                <label for="billingCard">Billing Card Information</label>
+                <input type="text" id="billingCard" name="billingCard" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
